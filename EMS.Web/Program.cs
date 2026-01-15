@@ -1,7 +1,11 @@
+using EMS.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<EmsDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("EmsDbConnection")));
 
 var app = builder.Build();
 

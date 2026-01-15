@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Domain\\EMS.Domain.csproj",
+      "projectUniqueName": "e:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Domain\\EMS.Domain.csproj",
       "projectName": "EMS.Domain",
-      "projectPath": "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Domain\\EMS.Domain.csproj",
+      "projectPath": "e:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Domain\\EMS.Domain.csproj",
       "packagesPath": "C:\\Users\\yasse\\.nuget\\packages\\",
-      "outputPath": "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Domain\\obj\\",
+      "outputPath": "e:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yasse\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,3 +13,4 @@ E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\obj\Debug\net9.
 E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\obj\Debug\net9.0\refint\EMS.Application.dll
 E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\obj\Debug\net9.0\EMS.Application.pdb
 E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\obj\Debug\net9.0\ref\EMS.Application.dll
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\obj\Debug\net9.0\EMS.Application.sourcelink.json

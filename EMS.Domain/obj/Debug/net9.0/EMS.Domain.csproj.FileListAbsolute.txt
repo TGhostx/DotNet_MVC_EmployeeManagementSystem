@@ -9,3 +9,4 @@ E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Domain\obj\Debug\net9.0\EMS
 E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Domain\obj\Debug\net9.0\refint\EMS.Domain.dll
 E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Domain\obj\Debug\net9.0\EMS.Domain.pdb
 E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Domain\obj\Debug\net9.0\ref\EMS.Domain.dll
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Domain\obj\Debug\net9.0\EMS.Domain.sourcelink.json

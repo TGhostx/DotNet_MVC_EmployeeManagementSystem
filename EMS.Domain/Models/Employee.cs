@@ -42,7 +42,9 @@ namespace EMS.Domain.Models
         // Navigation Properties
         // [ForeignKey(nameof(Department))]
         public int DepartmentId { get; private set; }
+        public Department Department { get; private set; } = null!;
         public int JobId { get; private set; }
+        public Job Job { get; private set; } = null!;
 
         public ICollection<Attendance> Attendances { get; private set; } = new List<Attendance>();
         public ICollection<LeaveRequest> LeaveRequests { get; private set; } = new List<LeaveRequest>();
