@@ -1,0 +1,15 @@
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\bin\Debug\net9.0\EMS.Infrastructure.deps.json
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\bin\Debug\net9.0\EMS.Infrastructure.dll
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\bin\Debug\net9.0\EMS.Infrastructure.pdb
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\bin\Debug\net9.0\EMS.Domain.dll
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\bin\Debug\net9.0\EMS.Domain.pdb
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\obj\Debug\net9.0\EMS.Infrastructure.csproj.AssemblyReference.cache
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\obj\Debug\net9.0\EMS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\obj\Debug\net9.0\EMS.Infrastructure.AssemblyInfoInputs.cache
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\obj\Debug\net9.0\EMS.Infrastructure.AssemblyInfo.cs
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\obj\Debug\net9.0\EMS.Infrastructure.csproj.CoreCompileInputs.cache
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\obj\Debug\net9.0\EMS.Infr.CB012292.Up2Date
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\obj\Debug\net9.0\EMS.Infrastructure.dll
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\obj\Debug\net9.0\refint\EMS.Infrastructure.dll
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\obj\Debug\net9.0\EMS.Infrastructure.pdb
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\obj\Debug\net9.0\ref\EMS.Infrastructure.dll

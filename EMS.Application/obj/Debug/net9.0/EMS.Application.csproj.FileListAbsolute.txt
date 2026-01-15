@@ -1,0 +1,15 @@
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\bin\Debug\net9.0\EMS.Application.deps.json
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\bin\Debug\net9.0\EMS.Application.dll
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\bin\Debug\net9.0\EMS.Application.pdb
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\bin\Debug\net9.0\EMS.Domain.dll
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\bin\Debug\net9.0\EMS.Domain.pdb
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\obj\Debug\net9.0\EMS.Application.csproj.AssemblyReference.cache
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\obj\Debug\net9.0\EMS.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\obj\Debug\net9.0\EMS.Application.AssemblyInfoInputs.cache
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\obj\Debug\net9.0\EMS.Application.AssemblyInfo.cs
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\obj\Debug\net9.0\EMS.Application.csproj.CoreCompileInputs.cache
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\obj\Debug\net9.0\EMS.Appl.49CE4691.Up2Date
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\obj\Debug\net9.0\EMS.Application.dll
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\obj\Debug\net9.0\refint\EMS.Application.dll
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\obj\Debug\net9.0\EMS.Application.pdb
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Application\obj\Debug\net9.0\ref\EMS.Application.dll

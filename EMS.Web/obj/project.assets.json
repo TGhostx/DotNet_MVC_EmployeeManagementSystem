@@ -1,0 +1,138 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "EMS.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "EMS.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EMS.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EMS.Application.dll": {}
+        }
+      },
+      "EMS.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/EMS.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EMS.Domain.dll": {}
+        }
+      },
+      "EMS.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "EMS.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EMS.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EMS.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EMS.Application/1.0.0": {
+      "type": "project",
+      "path": "../EMS.Application/EMS.Application.csproj",
+      "msbuildProject": "../EMS.Application/EMS.Application.csproj"
+    },
+    "EMS.Domain/1.0.0": {
+      "type": "project",
+      "path": "../EMS.Domain/EMS.Domain.csproj",
+      "msbuildProject": "../EMS.Domain/EMS.Domain.csproj"
+    },
+    "EMS.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../EMS.Infrastructure/EMS.Infrastructure.csproj",
+      "msbuildProject": "../EMS.Infrastructure/EMS.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "EMS.Application >= 1.0.0",
+      "EMS.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\yasse\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Web\\EMS.Web.csproj",
+      "projectName": "EMS.Web",
+      "projectPath": "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Web\\EMS.Web.csproj",
+      "packagesPath": "C:\\Users\\yasse\\.nuget\\packages\\",
+      "outputPath": "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Web\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\yasse\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Application\\EMS.Application.csproj": {
+              "projectPath": "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Application\\EMS.Application.csproj"
+            },
+            "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Infrastructure\\EMS.Infrastructure.csproj": {
+              "projectPath": "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Infrastructure\\EMS.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
