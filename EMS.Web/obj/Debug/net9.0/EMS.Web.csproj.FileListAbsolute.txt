@@ -233,3 +233,6 @@ E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Web\bin\Debug\net9.0\runtim
 E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Web\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Web\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Web\obj\Debug\net9.0\EMS.Web.sourcelink.json
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Web\bin\Debug\net9.0\AutoMapper.dll
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Web\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Web\bin\Debug\net9.0\System.Diagnostics.DiagnosticSource.dll

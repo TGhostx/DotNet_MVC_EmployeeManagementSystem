@@ -29,6 +29,14 @@ namespace EMS.Domain.Models
             EmployeeId = employeeId;
         }
 
+        public Attendance(int employeeId, DateTime date)
+        {
+            EmployeeId = employeeId;
+            Date = date;
+            Status = AttendanceStatus.Present;
+            MarkAsCreated();
+        }
+
         public void UpdateStatus(AttendanceStatus status)
         {
             Status = status;

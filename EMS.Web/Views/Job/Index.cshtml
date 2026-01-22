@@ -1,0 +1,23 @@
+@model IReadOnlyList<EMS.Application.DTOs.Job.JobDto>
+
+<h2>Jobs</h2>
+
+<a asp-action="Create" class="btn btn-primary">Add Job</a>
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Base Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var j in Model)
+        {
+            <tr>
+                <td>@j.Title</td>
+                <td>@j.BaseSalary</td>
+            </tr>
+        }
+    </tbody>
+</table>

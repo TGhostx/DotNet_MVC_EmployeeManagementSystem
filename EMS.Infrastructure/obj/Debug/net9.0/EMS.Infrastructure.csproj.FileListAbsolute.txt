@@ -16,3 +16,5 @@ E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\obj\Debug\ne
 E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\bin\Debug\net9.0\EMS.Infrastructure.runtimeconfig.json
 E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\obj\Debug\net9.0\EMS.Infrastructure.sourcelink.json
 E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\obj\Debug\net9.0\EMS.Infrastructure.genruntimeconfig.cache
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\bin\Debug\net9.0\EMS.Application.dll
+E:\MyProject\DotNet\asp\EmployeeManagementSystem\EMS.Infrastructure\bin\Debug\net9.0\EMS.Application.pdb

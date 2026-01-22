@@ -47,6 +47,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[16.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -148,6 +154,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Application\\EMS.Application.csproj": {
+                "projectPath": "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Application\\EMS.Application.csproj"
+              },
               "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Domain\\EMS.Domain.csproj": {
                 "projectPath": "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Domain\\EMS.Domain.csproj"
               }
@@ -250,6 +259,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[16.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.3, )"

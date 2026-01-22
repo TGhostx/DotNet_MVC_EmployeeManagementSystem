@@ -37,6 +37,13 @@ namespace EMS.Domain.Models
             Status = LeaveStatus.Pending;
         }
 
+        public LeaveRequest(int employeeId, DateTime startDate, DateTime endDate)
+        {
+            EmployeeId = employeeId;
+            StartDate = startDate;
+            EndDate = endDate.Date;
+        }
+
         public void Approve()
         {
             Status = LeaveStatus.Approved;

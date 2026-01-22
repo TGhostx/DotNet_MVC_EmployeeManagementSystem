@@ -4,6 +4,75 @@
     "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Infrastructure\\EMS.Infrastructure.csproj": {}
   },
   "projects": {
+    "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Application\\EMS.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Application\\EMS.Application.csproj",
+        "projectName": "EMS.Application",
+        "projectPath": "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Application\\EMS.Application.csproj",
+        "packagesPath": "C:\\Users\\yasse\\.nuget\\packages\\",
+        "outputPath": "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yasse\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Domain\\EMS.Domain.csproj": {
+                "projectPath": "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Domain\\EMS.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[16.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Domain\\EMS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -85,6 +154,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Application\\EMS.Application.csproj": {
+                "projectPath": "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Application\\EMS.Application.csproj"
+              },
               "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Domain\\EMS.Domain.csproj": {
                 "projectPath": "E:\\MyProject\\DotNet\\asp\\EmployeeManagementSystem\\EMS.Domain\\EMS.Domain.csproj"
               }

@@ -42,6 +42,18 @@ namespace EMS.Infrastructure.Data
 
             // Payroll unique constraint (Employee + Month + Year)
             builder.Entity<Payroll>().HasIndex(p => new { p.EmployeeId, p.Month, p.Year }).IsUnique();
+
+            builder.Entity<Department>().HasData(
+                new{Id = 1, Name = "HR", Location = "Building A"},
+                new{Id = 2, Name = "IT", Location = "Building B"},
+                new{Id = 3, Name = "Finance", Location = "Building C"},
+                new{Id = 4, Name = "Operations", Location = "Building D"});
+
+            builder.Entity<Job>().HasData(
+                new{Id = 1, Name = "Software Engineer", Salary = 6000m},
+                new{Id = 2, Name = "HR Specialist", Salary = 4000m},
+                new{Id = 3, Name = "Finance", Salary = 4500m},
+                new{Id = 4, Name = "Operations", Salary = 7000m});
         }
     }
 }

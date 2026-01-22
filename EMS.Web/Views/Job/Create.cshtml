@@ -1,0 +1,18 @@
+@model EMS.Application.DTOs.Job.CreateJobDto
+
+<h2>Create Job</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="BaseSalary"></label>
+        <input asp-for="BaseSalary" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+</form>

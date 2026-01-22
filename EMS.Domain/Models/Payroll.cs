@@ -42,19 +42,47 @@ namespace EMS.Domain.Models
             BaseSalary = baseSalary;
             Allowances = allowances;
             Deductions = deductions;
-            NetSalary = baseSalary + allowances - deductions;
             EmployeeId = employeeId;
+            
+            RecalculateNetSalary();
             IsPaid = false;
+        }
+
+        public Payroll(int employeeId, int month, int year, decimal baseSalary)
+        {
+            EmployeeId = employeeId;
+            Month = month;
+            Year = year;
+            BaseSalary = baseSalary;
+        }
+
+        public void UpdateAllowances(decimal amount)
+        {
+            Allowances = amount;
+            RecalculateNetSalary();
+            MarkAsUpdated();
+        }
+
+        public void UpdateDeductions(decimal amount)
+        {
+            Deductions = amount;
+            RecalculateNetSalary();
+            MarkAsUpdated();
         }
 
         public void MarkAsPaid()
         {
             if (IsPaid)
-                return;
+                throw new InvalidOperationException("Payroll is already paid.");
 
             IsPaid = true;
             PaidAt = DateTime.UtcNow;
             MarkAsUpdated();
+        }
+
+        private void RecalculateNetSalary()
+        {
+            NetSalary = BaseSalary + Allowances - Deductions;
         }
     }
 }

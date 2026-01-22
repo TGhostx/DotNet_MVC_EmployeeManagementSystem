@@ -1,0 +1,25 @@
+@model IReadOnlyList<EMS.Application.DTOs.Department.DepartmentDto>
+
+<h2>Departments</h2>
+
+<a asp-action="Create" class="btn btn-primary">Add Department</a>
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Employees</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var d in Model)
+        {
+            <tr>
+                <td>@d.Name</td>
+                <td>@d.Location</td>
+                <td>@d.EmployeeCount</td>
+            </tr>
+        }
+    </tbody>
+</table>

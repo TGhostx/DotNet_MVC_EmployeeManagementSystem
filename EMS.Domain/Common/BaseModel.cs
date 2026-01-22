@@ -12,6 +12,11 @@ namespace EMS.Domain.Common
         public DateTime? UpdatedAt { get; protected set; }
         public bool IsDeleted { get; protected set; } = false;
 
+        protected void MarkAsCreated()
+        {
+            CreatedAt = DateTime.UtcNow;
+        }
+
         public void MarkAsUpdated()
         {
             UpdatedAt = DateTime.UtcNow;

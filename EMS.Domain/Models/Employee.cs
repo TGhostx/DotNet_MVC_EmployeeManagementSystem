@@ -65,6 +65,20 @@ namespace EMS.Domain.Models
             Status = EmployeeStatus.Active;
         }
 
+        public void UpdatePersonalInfo(string firstName, string lastName)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            MarkAsUpdated();
+        }
+
+        public void UpdateContact(string email, string? phone)
+        {
+            Email = email;
+            PhoneNumber = phone;
+            MarkAsUpdated();
+        }
+
         public void ChangeDepartmant(int departmentId)
         {
             DepartmentId = departmentId;
